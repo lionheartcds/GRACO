@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*位置*/
+.location-block{width:100%;height:30px;float:left;line-height:35px;font-size:12px;}
+.location-block>a{width:auto;height:auto;float:left;color:#999;margin-right:5px;transition:all 0.3s;;}
+.location-block>a:hover{color:#333;}
+.location-block>span{width:auto;height:auto;float:left;color:#999;margin-right:5px;font-size:13px;}
+/*位置*/
+
+/*分頁頭部BANNER*/
+.pagging-title-banner{width:100%;max-width:100%;height:auto;float:left;margin-bottom:75px;border:none;padding-left:0px;padding-bottom:0px;}
+/*分頁頭部BANNER*/
+
+/*汽座*/
+.item-title.pagging{margin-bottom:20px;}
+.info-detail{width:100%;height:auto;float:left;text-align:center;line-height:30px;}
+.adv-block{width:100%;height:auto;float:left;margin-bottom:75px;}
+.adv-block.car-seat{width:100%;height:100%;max-height:260px;background-size:cover;background:url(../img/car-seat-adv-banner.png) no-repeat;padding:85px 0;}
+.adv-block.about-us{width:100%;height:100%;max-height:260px;background-size:cover;background:url(../img/about-us-adv-banner.png) no-repeat;padding:85px 0;}
+.adv-main-block{width:100%;height:auto;float:left;color:#fff;}
+.adv-main-block>div{width:100%;height:auto;float:left;font-size:40px;margin-bottom:3px;font-weight:bold;}
+.adv-main-block>span{width:100%;height:auto;float:left;font-size:25px;}
+.item-entrance-block{width:100%;height:100%;max-height:450px;margin-bottom:30px;float:left;}
+.item-entrance-block:nth-last-child(1){margin-bottom:100px;}
+.item-entrance-block.car-seat-04{background:url(../img/04-car-seat-sum-bg.png) no-repeat;}
+.item-entrance-block.car-seat-03{background:url(../img/03-take-car-seat-sum-bg.png) no-repeat;}
+.item-entrance-block.car-seat-012{background:url(../img/012-grow-car-seat-sum-bg.png) no-repeat;}
+.item-entrance-block.two-way-push{background:url(../img/two-way-push-car-sum-bg.png) no-repeat;}
+.item-entrance-block.one-way-push{background:url(../img/one-way-push-car-sum-bg.png) no-repeat;}
+
+
+
+
+.item-entrance-btn-block{width:219px;height:0;border-left:171px solid transparent;border-bottom:450px solid rgba(0,0,0,0.3);float:right;}
+.item-entrance-btn-block>div.main{width:100%;height:auto;float:left;color:white;padding:175px 0px 95px 0;margin-left:-30px;}
+.item-entrance-btn-block>div.main>div.title{width:100%;font-size:20px;margin-bottom:10px;font-weight:bold;}
+.item-entrance-btn-block>div.main>div.sub{width:100%;margin-bottom:40px;}
+.item-entrance-btn-block>div.main>a{width:45px;height:45px;float:right;}
+.adv-block.newborn-car-seat{width:100%;height:100%;max-height:260px;background-size:cover;background:url(../img/newborn-car-seat-adv-banner.png) no-repeat;padding:85px 0;}
+.adv-block.push-car{width:100%;height:100%;max-height:260px;background-size:cover;background:url(../img/push-car-adv-banner.png) no-repeat;padding:85px 0;}
+.adv-block.two-way-push-car{width:100%;height:100%;max-height:260px;background-size:cover;background:url(../img/one-way-push-car-adv-banner.png) no-repeat;padding:85px 0;}
+
+
+
+.pagging-item-product-out{width:100%;height:auto;float:left;margin-bottom:100px;}
+.pagging-about-product-block{width:780px;height:auto;display:block;margin:0 auto;margin-bottom:100px;}
+.pagging-item-product{width:220px;height:380px;float:left;margin-right:23px;background:white;transition:all 0.3s;padding:35px 40px 0px 40px;cursor:pointer;transition:all 0.3s;border-radius:5px;border:1px solid rgba(0,0,0,0.1);color:#333;margin-bottom:20px;}
+.pagging-item-product.about{width:248px;height:180px;float:left;margin-right:15px;background:white;transition:all 0.3s;padding:30px 0;cursor:pointer;transition:all 0.3s;border-radius:5px;}
+.pagging-item-product.about:nth-last-child(1){margin-right:0px;}
+
+
+.pagging-item-product:hover{margin-top:-10px;box-shadow:1px 1px 10px rgba(0,0,0,0.2);}
+.pagging-item-product>.item-product-pic{height:170px;}
+.pagging-item-product>.about-item-pic>img{width:auto;height:143px;display:block;margin:0 auto 30px auto;}
+.pagging-item-color-block{width:100%;height:auto;float:left;margin:25px 0 20px 0;}
+.pagging-item-color-block>div{width:44px;height:20px;display:block;margin:0 auto;}
+.pagging-item-color-block>div>button{width:20px;height:20px;float:left;margin-right:4px;border-radius:500px;border:none;}
+.pagging-item-color-block>div>button:nth-last-child(1){margin-right:0px;}
+.pagging-item-color-block>div>button.black{background-color:#333333;}
+.pagging-item-color-block>div>button.gray{background-color:#999999;}
+.pagging-item-color-block>div>button.blue{background-color:#0D2E7D;}
+.pagging-item-product-new-arrival{width:115px;height:30px;float:left;margin:15px 52.5px 0 52.5px;background-color:#B73535;line-height:30px;text-align:center;color:white;}
+
+.pagging-item-main-pic-block{width:100%;max-width:calc(50% - 75px);height:auto;float:left;margin-right:150px;}
+.pagging-item-main-pic-block>img{width:80%;height:auto;display:block;margin:0px auto 30px auto;}
+.pagging-item-main-pic-block>div.slide{width:25px;height:10px;display:block;margin:0 auto;}
+.pagging-item-main-pic-block>div.slide>a{width:10px;height:10px;float:left;border-radius:500px;margin-right:5px;background-color:#333;}
+.pagging-item-main-pic-block>div.slide>a:nth-last-child(1){margin-right:0;}
+.pagging-item-main-info-block{width:100%;max-width:calc(50% - 75px);height:auto;float:left;}
+.pagging-item-main-info-block>div.title{width:100%;height:auto;float:left;font-size:25px;color:#333;margin-bottom:10px;font-weight:700;}
+.pagging-item-main-info-block>div.title-tips{width:100%;height:auto;float:left;font-size:20px;color:#666;margin-bottom:40px;}
+.pagging-item-main-info-block>div.sub{width:100%;height:auto;float:left;font-size:17px;color:#333;margin-bottom:20px;font-weight:700;;}
+.pagging-item-main-info-block>div.main{width:100%;height:auto;float:left;font-size:17px;color:#666;margin-bottom:40px;}
+.pagging-item-main-color-block{width:100%;height:20px;float:left;margin-bottom:15px;line-height:20px;font-size:17px;}
+.pagging-item-main-color-block>span{width:auto;height:20px;float:left;}
+.pagging-item-main-color-block>div.color{width:auto;height:20px;float:left;margin-left:15px;}
+.pagging-item-main-color-block>div.color>a{width:20px;height:20px;margin-right:10px;border-radius:500px;float:left;background-color:#333;}
+.pagging-item-main-color-block>div.color>a:nth-last-child(1){margin-right:0px;}
+.pagging-item-main-detail-info-block{width:100%;height:auto;float:left;margin-bottom:10px;line-height:32px;}
+.pagging-item-main-detail-info-block.last{margin-bottom:50px;}
+.pagging-item-main-detail-info-block>div.sign{width:100%;max-width:100px;float:left;height:32px;text-align: center;line-height:32px;background-color:#999999;color:#fff;font-weight:700;font-size:15px;margin-right:10px;}
+.pagging-item-main-detail-info-block>div.info{width:auto;height:auto;min-height:32px;line-height:32px;font-size:15px;float:left;}
+.pagging-item-main-detail-info-block>div.info.mm{line-height:25px;}
+.pagging-item-main-detail-info-block>div.info>img{width:auto;height:32px;float:left;margin-right:10px;}
+.pagging-item-graco-store-btn{width:100%;height:auto;max-width:234px;float:left;margin-bottom:35px;}
+
+
+
+
+/*汽座*/
+
+
+/*我們*/
+.about-history-kv-word{width:100%;height:50px;display:block;text-align:center;margin-bottom:130px;position:relative;transform:translateY(-50%);top:40%;}
+.about-main-word{width:100%;height:auto;float:left;padding:124px 0;}
+.about-main-word>div.title{width:100%;height:auto;float:left;text-align:center;font-size:25px;margin-bottom:250px;color:#333;}
+.about-main-word>div.sub{width:100%;height:auto;float:left;text-align:center;font-size:15px;color:#666666;}
+.about-main-years{width:auto;height:auto;float:left;position:absolute;font-size:247px;color:#999999;opacity:0.1;margin-top:-80px;line-height:160px;}
+.about-main-years>span{margin-left:90px;}
+/*我們*/
+
+
