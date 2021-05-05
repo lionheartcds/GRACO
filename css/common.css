@@ -66,8 +66,8 @@ i{font-style:normal;}
 .item-product-pic{width:100%;height:145px;float:left;margin-bottom:30px;}
 .item-product-pic>img{width:auto;height:100%;display:block;margin: 0 auto;}
 .item-product-word{width:100%;height:auto;float:left;text-align:center;}
-.item-product-word.title{font-size:15px;font-weight:700;margin-bottom:5px;}
-.item-product-word.sub{font-size:12px;font-weight:normal;}
+.item-product-word.title{font-size:15px;font-weight:700;margin-bottom:5px;color:#333;}
+.item-product-word.sub{font-size:12px;font-weight:normal;color:#333;}
 
 .item-product-word.about-title{width:100%;height:28px;line-height:28px;font-size:15px;font-weight:700;color:#333;background-color:white;}
 .item-product-word.about-title.active{background-color:#333;color:white;}
