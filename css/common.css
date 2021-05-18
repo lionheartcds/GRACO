@@ -12,6 +12,8 @@ li{list-style:none;}
 .outline{width:100%;height:auto;float:left;}
 .outblock{width:1300px;height:auto;display:block;margin:0 auto;}
 
+#ham-block{display:none;}
+
 /*Function*/
 .function-fix-block{width:66px; height:auto;float:right;position:fixed;right:20px;top:200px;}
 .function-fix-block>a{width:66px;height:66px;float: left;margin-bottom:20px;}
