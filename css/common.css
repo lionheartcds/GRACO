@@ -5,6 +5,7 @@ body{padding:0 0;margin:0 0;font-size:15px!important;font-family:'Segoe UI';lett
 img{width:100%;height:auto;}
 a,input,select,button{outline:none;list-style:none;text-decoration:none;}
 i{font-style:normal;}
+li{list-style:none;}
 .fl{float:left;}
 .fr{float:right;}
 
@@ -20,7 +21,7 @@ i{font-style:normal;}
 
 /*Header*/
 .header-block{width:100%;height:auto;float:left;position:fixed;top:0px;margin-bottom:80px;}
-.top-hedaer{width:100%;height:30px;float:left;background:#58C9E7;}
+.top-hedaer{width:100%;height:15px;float:left;background:#58C9E7;}
 .header{width:calc(100% - 400px);height:50px;float:left;background:#fff;box-shadow:0 5px 10px rgba(0,0,0,0.1);padding:0 200px;}
 .logo{width:109px;height:auto;float:left;position: relative;transform:translateY(-50%);top:50%;}
 .header-menu{width:auto;height:auto;float:right;line-height:50px;}
@@ -33,7 +34,9 @@ i{font-style:normal;}
 
 /*Banner*/
 .banner-out{width:100%;height:auto;float:left;}
-.banner-block{width:100%;max-width:1680px;height:auto;float:right;margin-bottom:35px;border-left:2px solid #EFEFEF;border-bottom:2px solid #EFEFEF;padding-left:20px;padding-bottom:10px;}
+.banner-block{width:100%;max-width:1680px;height:auto;float:right;margin-bottom:35px;padding-left:20px;padding-bottom:10px;}
+.banner-block>li{display:none;}
+.banner-block>li:nth-child(1){display:block;}
 .banner-main-block{width:1000px;height:auto;display:block;margin:0 auto;}
 .banner-main{width:auto;height:auto;float:left;color:#333;position:absolute;margin-top:190px;}
 .banner-main>div.title{width:100%;height:auto;float:left;font-size:35px;font-weight:700;margin-bottom:10px;}
@@ -47,9 +50,9 @@ i{font-style:normal;}
 /*廣告排*/
 .kv-group-out{width:100%;height:auto;float:left;margin-bottom:75px;}
 .kv-group-block{width:100%;max-width:1730px;height:370px;float:left;}
-.kv-group-block>a{width:auto;max-width:370px;height:auto;max-height:370px;float:left;}
+.kv-group-block>a{width:370px;height:370px;float:left;overflow:hidden;}
 .kv-group-block>a:nth-child(1){width:620px;height:370px;float:left;}
-.kv-group-block>a>img{height:100%;}
+.kv-group-block>a>img{width:100%;height:120%;float:left;}
 /*廣告排*/
 
 
@@ -76,16 +79,17 @@ i{font-style:normal;}
 
 /*廣告項目介紹 開始*/
 .adv-intro-out{width:100%;height:auto;float:left;margin-bottom:70px;}
-.adv-intro-block{width:100%;height:750px;max-width:1725px;margin-bottom:50px;}
+.adv-intro-block{width:100%;height:auto;max-width:1400px;margin-bottom:50px;}
 .adv-intro-block:nth-last-child(1){margin-bottom:0px;}
-.adv-intro-pic{width:100%;height:auto;max-width:975px;float:left;}
-.adv-intro-main{width:100%;height:750px;max-width:750px;float:left;background:#F9F9F9;}
+.adv-intro-pic{width:100%;height:auto;max-width:50%;float:left;}
+.adv-intro-main{width:100%;height:540px;max-width:50%;float:left;background:#F9F9F9;}
 .adv-main-word{width:100%;height:50px;display:block;text-align:center;margin-bottom:130px;position:relative;transform:translateY(-50%);top:40%;}
 .adv-main-word>div.title{width:100%;height:auto;float:left;text-align:center;font-size:20px;margin-bottom:5px;color:#333;}
 .adv-main-word>div.sub{width:100%;height:auto;float:left;text-align:center;font-size:15px;color:#999;}
 .adv-main-btn{width:185px;height:40px;display:block;margin:0 auto;border-radius:50px;text-align:center;line-height:40px;color:white;font-size:15px;background:#333;position: relative;transform:translateY(-50%);top:50%;transition:all 0.3s;}
 .adv-main-btn:hover{background:black;}
 /*廣告項目介紹 結束*/
+
 
 
 /*最新消息 開始*/
@@ -120,5 +124,5 @@ i{font-style:normal;}
 /*EDM 開始*/
 
 /*Footer 開始*/
-.footer-out{width:100%;height:45px;float:left;background:#58C9E7;line-height:45px;text-align:center;color:white;font-size:17px;}
+.footer-out{width:100%;height:auto;float:left;background:#58C9E7;line-height:25px;text-align:center;color:white;font-size:17px;}
 /*Footer 結束*/
